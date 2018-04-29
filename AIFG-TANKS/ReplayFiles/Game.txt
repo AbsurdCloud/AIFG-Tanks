@@ -21,23 +21,19 @@
   </GameSpecificParameters>
   <Players>
     <Player id="1">
-      <Name>
-      </Name>
+      <Name>TankyMcTankFace</Name>
       <CodePath>DefaultAI</CodePath>
     </Player>
     <Player id="2">
-      <Name>
-      </Name>
+      <Name>TankyMcTankFace</Name>
       <CodePath>DefaultAI</CodePath>
     </Player>
     <Player id="3">
-      <Name>
-      </Name>
+      <Name>TankyMcTankFace</Name>
       <CodePath>DefaultAI</CodePath>
     </Player>
     <Player id="4">
-      <Name>
-      </Name>
+      <Name>TankyMcTankFace</Name>
       <CodePath>DefaultAI</CodePath>
     </Player>
   </Players>
@@ -439,27 +435,273 @@
     <Turn number="1" />
     <Turn number="2" />
     <Turn number="3" />
-    <Turn number="4" />
+    <Turn number="4">
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>14</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,24,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>14</GridX>
+        <GridY>14</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,21,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,25,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>14</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,21,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="5" />
     <Turn number="6" />
     <Turn number="7" />
-    <Turn number="8" />
+    <Turn number="8">
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>14</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,26,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>14</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,24,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,28,5</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,25,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="9" />
     <Turn number="10" />
     <Turn number="11" />
-    <Turn number="12" />
+    <Turn number="12">
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>14</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>14</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,26,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,35,6</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,28,5</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="13" />
     <Turn number="14" />
     <Turn number="15" />
-    <Turn number="16" />
+    <Turn number="16">
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>14</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>14</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,47,7</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,35,6</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="17" />
     <Turn number="18" />
     <Turn number="19" />
-    <Turn number="20" />
+    <Turn number="20">
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>14</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>14</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,51,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,47,7</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="21" />
     <Turn number="22" />
     <Turn number="23" />
-    <Turn number="24" />
+    <Turn number="24">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>14</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>14</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,55,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,51,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="25" />
     <Turn number="26" />
     <Turn number="27" />
@@ -487,55 +729,448 @@
     <Turn number="49" />
     <Turn number="50" />
     <Turn number="51" />
-    <Turn number="52" />
+    <Turn number="52">
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>13</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,24,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>14</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,21,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>13</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>14</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="53" />
     <Turn number="54" />
     <Turn number="55" />
-    <Turn number="56" />
+    <Turn number="56">
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>12</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,26,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>13</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,24,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>12</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>13</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="57" />
     <Turn number="58" />
     <Turn number="59" />
-    <Turn number="60" />
+    <Turn number="60">
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>11</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>12</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,26,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>11</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,43,7</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>12</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="61" />
     <Turn number="62" />
     <Turn number="63" />
-    <Turn number="64" />
+    <Turn number="64">
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>10</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>11</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>10</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,55,8</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>11</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,43,7</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="65" />
     <Turn number="66" />
     <Turn number="67" />
-    <Turn number="68" />
+    <Turn number="68">
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>9</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>10</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>9</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,56,8</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>10</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,55,8</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="69" />
     <Turn number="70" />
     <Turn number="71" />
-    <Turn number="72" />
+    <Turn number="72">
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>9</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,61,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>9</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,56,8</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="73" />
     <Turn number="74" />
     <Turn number="75" />
-    <Turn number="76" />
+    <Turn number="76">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>7</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,62,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>8</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,61,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="77" />
     <Turn number="78" />
     <Turn number="79" />
-    <Turn number="80" />
+    <Turn number="80">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>6</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,74,10</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>7</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,62,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="81" />
     <Turn number="82" />
     <Turn number="83" />
-    <Turn number="84" />
+    <Turn number="84">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>5</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,75,10</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>6</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,74,10</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="85" />
     <Turn number="86" />
     <Turn number="87" />
-    <Turn number="88" />
+    <Turn number="88">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>4</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,92,12</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>5</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,75,10</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="89" />
     <Turn number="90" />
     <Turn number="91" />
-    <Turn number="92" />
+    <Turn number="92">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>3</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,98,13</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>4</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,92,12</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="93" />
     <Turn number="94" />
     <Turn number="95" />
-    <Turn number="96" />
+    <Turn number="96">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>2</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,99,13</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>3</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,98,13</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="97" />
     <Turn number="98" />
     <Turn number="99" />
-    <Turn number="100" />
+    <Turn number="100">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>1</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,100,14</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>2</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,99,13</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="101" />
     <Turn number="102" />
     <Turn number="103" />
@@ -1195,59 +1830,713 @@
     <Turn number="757" />
     <Turn number="758" />
     <Turn number="759" />
-    <Turn number="760" />
+    <Turn number="760">
+      <WSC>
+        <GridX>1</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>6</NewContentType>
+        <NewPlayer>1</NewPlayer>
+        <NewState>0,0,24,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>0</GridY>
+        <OldContentType>6</OldContentType>
+        <OldPlayer>1</OldPlayer>
+        <OldState>0,0,21,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>1</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>1</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,101,15</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>1</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,100,14</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,55,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,55,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="761" />
     <Turn number="762" />
     <Turn number="763" />
-    <Turn number="764" />
+    <Turn number="764">
+      <WSC>
+        <GridX>2</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>6</NewContentType>
+        <NewPlayer>1</NewPlayer>
+        <NewState>0,0,26,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>1</GridX>
+        <GridY>0</GridY>
+        <OldContentType>6</OldContentType>
+        <OldPlayer>1</OldPlayer>
+        <OldState>0,0,24,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>2</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>1</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>1</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,104,15</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>1</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,101,15</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,55,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,55,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="765" />
     <Turn number="766" />
     <Turn number="767" />
-    <Turn number="768" />
+    <Turn number="768">
+      <WSC>
+        <GridX>3</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>6</NewContentType>
+        <NewPlayer>1</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>2</GridX>
+        <GridY>0</GridY>
+        <OldContentType>6</OldContentType>
+        <OldPlayer>1</OldPlayer>
+        <OldState>0,0,26,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>3</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,43,7</NewState>
+      </WSC>
+      <WSC>
+        <GridX>2</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>1</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,107,15</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>1</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,104,15</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,55,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,55,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="769" />
     <Turn number="770" />
     <Turn number="771" />
-    <Turn number="772" />
+    <Turn number="772">
+      <WSC>
+        <GridX>4</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>6</NewContentType>
+        <NewPlayer>1</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>3</GridX>
+        <GridY>0</GridY>
+        <OldContentType>6</OldContentType>
+        <OldPlayer>1</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>4</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,55,8</NewState>
+      </WSC>
+      <WSC>
+        <GridX>3</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,43,7</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>1</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,110,15</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>1</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,107,15</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,55,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,55,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="773" />
     <Turn number="774" />
     <Turn number="775" />
-    <Turn number="776" />
+    <Turn number="776">
+      <WSC>
+        <GridX>5</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>6</NewContentType>
+        <NewPlayer>1</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>4</GridX>
+        <GridY>0</GridY>
+        <OldContentType>6</OldContentType>
+        <OldPlayer>1</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>5</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,56,8</NewState>
+      </WSC>
+      <WSC>
+        <GridX>4</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,55,8</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>1</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,113,16</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>1</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,110,15</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,55,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,55,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="777" />
     <Turn number="778" />
     <Turn number="779" />
-    <Turn number="780" />
+    <Turn number="780">
+      <WSC>
+        <GridX>6</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>6</NewContentType>
+        <NewPlayer>1</NewPlayer>
+        <NewState>0,0,28,4</NewState>
+      </WSC>
+      <WSC>
+        <GridX>5</GridX>
+        <GridY>0</GridY>
+        <OldContentType>6</OldContentType>
+        <OldPlayer>1</OldPlayer>
+        <OldState>0,0,28,4</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>6</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,61,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>5</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,56,8</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>14</GridX>
+        <GridY>1</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>5</NewContentType>
+        <NewPlayer>3</NewPlayer>
+        <NewState>0,0,117,16</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>1</GridY>
+        <OldContentType>5</OldContentType>
+        <OldPlayer>3</OldPlayer>
+        <OldState>0,0,113,16</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+      <WSC>
+        <GridX>14</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>3</NewContentType>
+        <NewPlayer>4</NewPlayer>
+        <NewState>0,0,55,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>0</GridY>
+        <OldContentType>3</OldContentType>
+        <OldPlayer>4</OldPlayer>
+        <OldState>0,0,55,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="781" />
     <Turn number="782" />
     <Turn number="783" />
-    <Turn number="784" />
+    <Turn number="784">
+      <WSC>
+        <GridX>7</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,62,9</NewState>
+      </WSC>
+      <WSC>
+        <GridX>6</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,61,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="785" />
     <Turn number="786" />
     <Turn number="787" />
-    <Turn number="788" />
+    <Turn number="788">
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,74,10</NewState>
+      </WSC>
+      <WSC>
+        <GridX>7</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,62,9</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="789" />
     <Turn number="790" />
     <Turn number="791" />
-    <Turn number="792" />
+    <Turn number="792">
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,75,10</NewState>
+      </WSC>
+      <WSC>
+        <GridX>8</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,74,10</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="793" />
     <Turn number="794" />
     <Turn number="795" />
-    <Turn number="796" />
+    <Turn number="796">
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,91,12</NewState>
+      </WSC>
+      <WSC>
+        <GridX>9</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,75,10</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="797" />
     <Turn number="798" />
     <Turn number="799" />
-    <Turn number="800" />
+    <Turn number="800">
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,97,13</NewState>
+      </WSC>
+      <WSC>
+        <GridX>10</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,91,12</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="801" />
     <Turn number="802" />
     <Turn number="803" />
-    <Turn number="804" />
+    <Turn number="804">
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,98,13</NewState>
+      </WSC>
+      <WSC>
+        <GridX>11</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,97,13</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="805" />
     <Turn number="806" />
     <Turn number="807" />
-    <Turn number="808" />
+    <Turn number="808">
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,99,14</NewState>
+      </WSC>
+      <WSC>
+        <GridX>12</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,98,13</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="809" />
     <Turn number="810" />
     <Turn number="811" />
-    <Turn number="812" />
+    <Turn number="812">
+      <WSC>
+        <GridX>14</GridX>
+        <GridY>8</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>,,,</OldState>
+        <NewContentType>4</NewContentType>
+        <NewPlayer>2</NewPlayer>
+        <NewState>0,0,100,15</NewState>
+      </WSC>
+      <WSC>
+        <GridX>13</GridX>
+        <GridY>8</GridY>
+        <OldContentType>4</OldContentType>
+        <OldPlayer>2</OldPlayer>
+        <OldState>0,0,99,14</OldState>
+        <NewContentType>0</NewContentType>
+        <NewPlayer>0</NewPlayer>
+        <NewState>,,,</NewState>
+      </WSC>
+    </Turn>
     <Turn number="813" />
     <Turn number="814" />
     <Turn number="815" />

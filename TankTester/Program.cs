@@ -19,10 +19,11 @@ namespace GridWorld
             // game.PlayGame() method needs an array of BasePlayers to work
             BasePlayer[] testplayers = new BasePlayer[4];
             //initialize players
-            testplayers[0] = new BasePlayer();
-            testplayers[1] = new BasePlayer();
-            testplayers[2] = new BasePlayer();
-            testplayers[3] = new BasePlayer();
+            testplayers[0] = new TankyMcTankFace();
+            testplayers[1] = new TankyMcTankFace();
+            testplayers[2] = new TankyMcTankFace();
+            testplayers[3] = new TankyMcTankFace();
+
             List<ArrayList> gameResult;
             // if testType = true => check match execution time; if false => write game replay in ReplayFile folder 
             bool testType = false;

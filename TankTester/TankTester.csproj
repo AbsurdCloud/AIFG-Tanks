@@ -45,6 +45,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\AIFG-TANKS\Tanks.dll</HintPath>
     </Reference>
+    <Reference Include="TankyMcTankFace">
+      <HintPath>..\AIFG-TANKS\TankyMcTankFace.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
