@@ -10,6 +10,7 @@ namespace GridWorld
     {
         static void Main(string[] args)
         {
+            //Commented for testing Github
             
             // initializing training ground
             GameForFastTesting game = new GameForFastTesting(new GameSpecifics());
