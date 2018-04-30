@@ -56,5 +56,11 @@
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AIFG-TanksSolution\AIFG-TanksSolution.csproj">
+      <Project>{2e527d6c-acae-4121-81e5-ae1d92bf381f}</Project>
+      <Name>AIFG-TanksSolution</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

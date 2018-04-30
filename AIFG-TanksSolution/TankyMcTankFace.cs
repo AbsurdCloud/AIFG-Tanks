@@ -31,7 +31,7 @@ namespace GridWorld
             }
 
             //WriteTrace("ScoreEmptySquare " + myWorldState.ScorePerEmptySquareSeen);
-           // WriteTrace("ScoreTankDestroyed " + myWorldState.ScorePerOpposingTankDestroyed);
+            //WriteTrace("ScoreTankDestroyed " + myWorldState.ScorePerOpposingTankDestroyed);
             //WriteTrace("ScoreRockSquare " + myWorldState.ScorePerRockSquareSeen);
 
             switch (direction)
