@@ -1,0 +1,56 @@
+<Terrain>
+  <TerrainName>Default Terrain</TerrainName>
+  <NumberOfPlayers>4</NumberOfPlayers>
+  <WorldWidthGridSquares>15</WorldWidthGridSquares>
+  <WorldHeightGridSquares>15</WorldHeightGridSquares>
+  <GridSquareWidth>50</GridSquareWidth>
+  <GridSquareHeight>50</GridSquareHeight>
+  <GridLineWidth>1</GridLineWidth>
+  <GridLineColour>-1</GridLineColour>
+  <ShowGridLines>true</ShowGridLines>
+  <BackgroundColour>-16777216</BackgroundColour>
+  <AITimePerTurn>10</AITimePerTurn>
+  <AITimePerGame>10</AITimePerGame>
+  <MaxNumOverTimeAITurns>0</MaxNumOverTimeAITurns>
+  <MaxNumTurns>1000</MaxNumTurns>
+  <GameSpecificParameters>
+    <GameSpecificParameter>8</GameSpecificParameter>
+    <GameSpecificParameter>50</GameSpecificParameter>
+    <GameSpecificParameter>1</GameSpecificParameter>
+    <GameSpecificParameter>10</GameSpecificParameter>
+  </GameSpecificParameters>
+  <Players>
+    <Player id="1">
+      <Name>Default AI</Name>
+      <CodePath>DefaultAI</CodePath>
+    </Player>
+    <Player id="2">
+      <Name>Default AI</Name>
+      <CodePath>DefaultAI</CodePath>
+    </Player>
+    <Player id="3">
+      <Name>Default AI</Name>
+      <CodePath>DefaultAI</CodePath>
+    </Player>
+    <Player id="4">
+      <Name>Default AI</Name>
+      <CodePath>DefaultAI</CodePath>
+    </Player>
+  </Players>
+  <WorldStateChanges>
+    <Turn number="0">
+      <WSC>
+        <GridX>0</GridX>
+        <GridY>0</GridY>
+        <OldContentType>0</OldContentType>
+        <OldPlayer>0</OldPlayer>
+        <OldState>
+        </OldState>
+        <NewContentType>6</NewContentType>
+        <NewPlayer>1</NewPlayer>
+        <NewState>
+        </NewState>
+      </WSC>
+    </Turn>
+  </WorldStateChanges>
+</Terrain>
