@@ -10,6 +10,7 @@ namespace GridWorld
     {
         static void Main(string[] args)
         {
+            /*
             //Commented for testing Github
             
             // initializing training ground
@@ -45,7 +46,30 @@ namespace GridWorld
                 String filePath = "..\\..\\..\\AIFG-TANKS\\ReplayFiles\\Game.txt";
                 gameResult = game.PlayGameAndGetReplayFile(testplayers, filePath);
             }
-            
+            */
+
+            string location = "C:\\Users\\Andrei\\Desktop\\";
+            NeuralNetwork nn = new NeuralNetwork(5,7,7,4);
+            //nn.InitializeWeights();
+
+            List<double> list = new List<double>();
+            double start = 0.1;
+            for (int i=1; i<131; i++)
+            {
+                list.Add(i * start);
+            }
+            double[] arr = list.ToArray();
+
+            nn.SetWeights(arr);
+
+            double[] write = nn.GetWeights();
+            string[] writeString = new string[write.Length];
+            for (int i=0; i<write.Length; i++)
+            {
+                writeString[i] = Convert.ToString(write[i]);
+            }
+            System.IO.File.WriteAllLines(@location + "AIFGAI" + ".txt", writeString);
+            Console.WriteLine(write.Length);
             Console.ReadKey();
             
         }

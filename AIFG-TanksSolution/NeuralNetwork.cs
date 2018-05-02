@@ -9,36 +9,47 @@ namespace GridWorld
         private static Random rnd;
 
         private int numInput;
-        private int numHidden;
+        private int numHidden1;
+        private int numHidden2;
         private int numOutput;
 
         private double[] inputs;
 
-        private double[][] ihWeights; // input-hidden
-        private double[] hBiases;
-        private double[] hOutputs;
+        private double[][] ihWeights; // input-hidden1
+        private double[] h1Biases;
+        private double[] h1Outputs;
 
-        private double[][] hoWeights; // hidden-output
+        private double[][] hhWeights; // hidden1-hidden2
+        private double[] h2Biases;
+        private double[] h2Outputs;
+
+        private double[][] hoWeights; // hidden2-output
         private double[] oBiases;
 
         private double[] outputs;
 
+    
 
-        public NeuralNetwork(int numInput, int numHidden, int numOutput)
+        public NeuralNetwork(int numInput, int numHidden1, int numHidden2, int numOutput)
         {
             rnd = new Random(0); // for InitializeWeights() and Shuffle()
 
             this.numInput = numInput;
-            this.numHidden = numHidden;
+            this.numHidden1 = numHidden1;
+            this.numHidden2 = numHidden2;
             this.numOutput = numOutput;
 
             this.inputs = new double[numInput];
 
-            this.ihWeights = MakeMatrix(numInput, numHidden);
-            this.hBiases = new double[numHidden];
-            this.hOutputs = new double[numHidden];
+            this.ihWeights = MakeMatrix(numInput, numHidden1);
+            this.h1Biases = new double[numHidden1];
+            this.h1Outputs = new double[numHidden1];
 
-            this.hoWeights = MakeMatrix(numHidden, numOutput);
+            this.hhWeights = MakeMatrix(numHidden1, numHidden2);
+            this.h2Biases = new double[numHidden2];
+            this.h2Outputs = new double[numHidden2];
+
+            this.hoWeights = MakeMatrix(numHidden2, numOutput);
             this.oBiases = new double[numOutput];
 
             this.outputs = new double[numOutput];
@@ -57,7 +68,7 @@ namespace GridWorld
         {
             string s = "";
             s += "===============================\\n";
-            s += "numInput = " + numInput + " numHidden = " + numHidden + " numOutput = " + numOutput + "\\n\\n";
+            s += "numInput = " + numInput + " numHidden1 = " + numHidden1 + " numHidden2 = " + numHidden2 + " numOutput = " + numOutput + "\\n\\n";
 
             s += "inputs: \\n";
             for (int i = 0; i < inputs.Length; ++i)
@@ -75,14 +86,35 @@ namespace GridWorld
             }
             s += "\\n";
 
-            s += "hBiases: \\n";
-            for (int i = 0; i < hBiases.Length; ++i)
-                s += hBiases[i].ToString("F4") + " ";
+            s += "h1Biases: \\n";
+            for (int i = 0; i < h1Biases.Length; ++i)
+                s += h1Biases[i].ToString("F4") + " ";
             s += "\\n\\n";
 
-            s += "hOutputs: \\n";
-            for (int i = 0; i < hOutputs.Length; ++i)
-                s += hOutputs[i].ToString("F4") + " ";
+            s += "h1Outputs: \\n";
+            for (int i = 0; i < h1Outputs.Length; ++i)
+                s += h1Outputs[i].ToString("F4") + " ";
+            s += "\\n\\n";
+
+            s += "hhWeights: \\n";
+            for (int i = 0; i < hhWeights.Length; ++i)
+            {
+                for (int j = 0; j < hhWeights[i].Length; ++j)
+                {
+                    s += hhWeights[i][j].ToString("F4") + " ";
+                }
+                s += "\\n";
+            }
+            s += "\\n";
+
+            s += "h2Biases: \\n";
+            for (int i = 0; i < h2Biases.Length; ++i)
+                s += h2Biases[i].ToString("F4") + " ";
+            s += "\\n\\n";
+
+            s += "h2Outputs: \\n";
+            for (int i = 0; i < h2Outputs.Length; ++i)
+                s += h2Outputs[i].ToString("F4") + " ";
             s += "\\n\\n";
 
             s += "hoWeights: \\n";
@@ -115,19 +147,24 @@ namespace GridWorld
 
         public void SetWeights(double[] weights)
         {
-            // Copy weights and biases in weights[] array to i-h weights, i-h biases, h-o weights, h-o biases
-            int numWeights = (numInput * numHidden) + (numHidden * numOutput) + numHidden + numOutput;
+            // Copy weights and biases in weights[] array to i-h1 weights, i-h1 biases, h1-h2 weights, h2-o weights, h1-h2 biases, h2-o biases
+            int numWeights = (numInput * numHidden1) + (numHidden1 * numHidden2) + (numHidden2 * numOutput) + numHidden1 + numHidden2 + numOutput;
             if (weights.Length != numWeights)
                 throw new Exception("Bad weights array length: ");
 
             int k = 0; // points into weights param
 
             for (int i = 0; i < numInput; ++i)
-                for (int j = 0; j < numHidden; ++j)
+                for (int j = 0; j < numHidden1; ++j)
                     ihWeights[i][j] = weights[k++];
-            for (int i = 0; i < numHidden; ++i)
-                hBiases[i] = weights[k++];  //Bias
-            for (int i = 0; i < numHidden; ++i)
+            for (int i = 0; i < numHidden1; ++i)
+                h1Biases[i] = weights[k++];  //Bias
+            for (int i = 0; i < numHidden1; ++i)
+                for (int j = 0; j < numHidden2; ++j)
+                    hhWeights[i][j] = weights[k++];
+            for (int i = 0; i < numHidden2; ++i)
+                h2Biases[i] = weights[k++];  //Bias
+            for (int i = 0; i < numHidden2; ++i)
                 for (int j = 0; j < numOutput; ++j)
                     hoWeights[i][j] = weights[k++];
             for (int i = 0; i < numOutput; ++i)
@@ -137,7 +174,7 @@ namespace GridWorld
         public void InitializeWeights()
         {
             // Initialize weights and biases to small random values
-            int numWeights = (numInput * numHidden) + (numHidden * numOutput) + numHidden + numOutput;
+            int numWeights = (numInput * numHidden1) + (numHidden1 * numHidden2) + (numHidden2 * numOutput) + numHidden1 + numHidden2 + numOutput;
             double[] initialWeights = new double[numWeights];
             double lo = -1;
             double hi = 1;
@@ -149,14 +186,19 @@ namespace GridWorld
         public double[] GetWeights()
         {
             // Returns the current set of wweights, presumably after training
-            int numWeights = (numInput * numHidden) + (numHidden * numOutput) + numHidden + numOutput;
+            int numWeights = (numInput * numHidden1) + (numHidden1 * numHidden2) + (numHidden2 * numOutput) + numHidden1 + numHidden2 + numOutput;
             double[] result = new double[numWeights];
             int k = 0;
             for (int i = 0; i < ihWeights.Length; ++i)
                 for (int j = 0; j < ihWeights[0].Length; ++j)
                     result[k++] = ihWeights[i][j];
-            for (int i = 0; i < hBiases.Length; ++i)
-                result[k++] = hBiases[i];
+            for (int i = 0; i < h1Biases.Length; ++i)
+                result[k++] = h1Biases[i];
+            for (int i = 0; i < hhWeights.Length; ++i)
+                for (int j = 0; j < hhWeights[0].Length; ++j)
+                    result[k++] = hhWeights[i][j];
+            for (int i = 0; i < h2Biases.Length; ++i)
+                result[k++] = h2Biases[i];
             for (int i = 0; i < hoWeights.Length; ++i)
                 for (int j = 0; j < hoWeights[0].Length; ++j)
                     result[k++] = hoWeights[i][j];
@@ -166,31 +208,42 @@ namespace GridWorld
         }
 
         // ----------------------------------------------------------------------------------------
-        //The function for cumputing the output layer values
+        //The function for computing the output layer values
         public double[] ComputeOutputs(double[] xValues)
         {
             if (xValues.Length != numInput)
                 throw new Exception("Bad xValues array length");
 
-            double[] hSums = new double[numHidden]; // hidden nodes sums scratch array
+            double[] h1Sums = new double[numHidden1]; // hidden nodes sums scratch array
+            double[] h2Sums = new double[numHidden2]; // hidden2 nodes sums scratch array
             double[] oSums = new double[numOutput]; // output nodes sums
 
             for (int i = 0; i < xValues.Length; ++i) // copy x-values to inputs
                 this.inputs[i] = xValues[i];
 
-            for (int j = 0; j < numHidden; ++j)  // compute i-h sum of weights * inputs
+            for (int j = 0; j < numHidden1; ++j)  // compute i-h sum of weights * inputs
                 for (int i = 0; i < numInput; ++i)
-                    hSums[j] += this.inputs[i] * this.ihWeights[i][j]; // note +=
+                    h1Sums[j] += this.inputs[i] * this.ihWeights[i][j]; // note +=
+            
+            for (int i = 0; i < numHidden1; ++i)  // add biases to input-to-hidden sums
+                h1Sums[i] += this.h1Biases[i];
 
-            for (int i = 0; i < numHidden; ++i)  // add biases to input-to-hidden sums
-                hSums[i] += this.hBiases[i];
+            for (int i = 0; i < numHidden1; ++i)   // apply activation
+                this.h1Outputs[i] = HyperTanFunction(h1Sums[i]); // hard-coded
 
-            for (int i = 0; i < numHidden; ++i)   // apply activation
-                this.hOutputs[i] = HyperTanFunction(hSums[i]); // hard-coded
+            for (int j = 0; j < numHidden2; ++j)  // compute h1-h2 sum of weights * inputs
+                for (int i = 0; i < numHidden1; ++i)
+                    h2Sums[j] += this.inputs[i] * this.hhWeights[i][j]; // note +=
 
-            for (int j = 0; j < numOutput; ++j)   // compute h-o sum of weights * hOutputs
-                for (int i = 0; i < numHidden; ++i)
-                    oSums[j] += hOutputs[i] * hoWeights[i][j];
+            for (int i = 0; i < numHidden2; ++i)  // add biases to hidden-to-hidden sums
+                h2Sums[i] += this.h2Biases[i];
+
+            for (int i = 0; i < numHidden2; ++i)   // apply activation
+                this.h2Outputs[i] = HyperTanFunction(h2Sums[i]); // hard-coded
+
+            for (int j = 0; j < numOutput; ++j)   // compute h-o sum of weights * h2Outputs
+                for (int i = 0; i < numHidden2; ++i)
+                    oSums[j] += h2Outputs[i] * hoWeights[i][j];
 
             for (int i = 0; i < numOutput; ++i)  // add biases to input-to-hidden sums
                 oSums[i] += oBiases[i];
@@ -246,5 +299,6 @@ namespace GridWorld
         // ----------------------------------------------------------------------------------------
 
     } // Neuronal network code based on the sample provided for 2013 Microsoft Build Conference attendees
-} 
+
+    
 }
